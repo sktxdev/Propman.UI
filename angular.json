@@ -109,5 +109,8 @@
       }
     }
   },
-  "defaultProject": "AngularDashboard1"
+  
+  "cli": {
+    "analytics": false
+  }
 }
