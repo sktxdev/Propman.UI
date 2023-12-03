@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AngularDashboard1": {
+    "propman.ui": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -73,10 +73,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "AngularDashboard1:build:production"
+              "buildTarget": "propman.ui:build:production"
             },
             "development": {
-              "browserTarget": "AngularDashboard1:build:development"
+              "buildTarget": "propman.ui:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -84,7 +84,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "AngularDashboard1:build"
+            "buildTarget": "propman.ui:build"
           }
         },
         "test": {
